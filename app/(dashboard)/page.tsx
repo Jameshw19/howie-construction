@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,7 +16,15 @@ export default function Home() {
             Elevate your outdoors with our <br /> Landscaping{" "}
             <span className="font-bold text-[#225FAE] ">expertise</span>.
           </h3>
-          <button className="py-2 text-lg">Contact</button>
+          <div className="py-4">
+            <Button
+              className="text-lg bg-[#225FAE] rounded-md"
+              variant="default"
+              size="default"
+            >
+              Contact
+            </Button>
+          </div>
         </div>
         <div className="hidden lg:block">
           <Image
