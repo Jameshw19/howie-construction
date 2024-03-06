@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Circle from "./_components/circle";
 
 export default function Home() {
   return (
     <main className="bg-white p-8 lg:px-48 lg:py-20">
-      <div className="flex items-center justify-evenly">
+      <Circle />
+      <div className="flex items-center justify-evenly relative z-10">
         <div>
           <h2 className="text-lg lg:text-xl font-semibold text-[#225FAE]">
             HOWIES CONSTRUCTION
