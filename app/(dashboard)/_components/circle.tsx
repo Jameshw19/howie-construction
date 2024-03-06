@@ -1,6 +1,6 @@
 const Circle = () => {
   return (
-    <div className="absolute top-1/2 left-full transform -translate-x-1/2 -translate-y-1/2 bg-[#225FAE] w-[1400px] h-[1400px] rounded-full z-0 hidden lg:block"></div>
+    <div className="absolute top-1/2 left-full transform -translate-x-3/4 -translate-y-3/4 bg-[#225FAE] w-[1050px] h-[1050px] rounded-full z-0 hidden lg:block"></div>
   );
 };
 
