@@ -1,3 +1,4 @@
+import Footer from "./_components/footer";
 import Navbar from "./_components/navbar";
 import Testimonials from "./_components/testimonials";
 import Works from "./_components/works";
@@ -13,6 +14,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
       {children}
       <Works />
       <Testimonials />
+      <Footer />
     </main>
   );
 };
