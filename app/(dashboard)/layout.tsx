@@ -1,4 +1,5 @@
 import Navbar from "./_components/navbar";
+import Testimonials from "./_components/testimonials";
 import Works from "./_components/works";
 
 interface DashboardLayoutProps {
@@ -11,6 +12,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
       <Navbar />
       {children}
       <Works />
+      <Testimonials />
     </main>
   );
 };
