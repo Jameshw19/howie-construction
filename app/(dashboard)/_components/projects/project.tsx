@@ -6,13 +6,13 @@ interface ProjectProps {
 
 const Project = ({ imageUrl }: ProjectProps) => {
   return (
-    <div className="w-96 h-96 flex p-4">
+    <div className="flex p-2 ">
       <Image
-        className="rounded-2xl"
+        className="rounded-2xl object-cover"
         src={imageUrl}
         alt="Project Image"
-        width={500}
-        height={500}
+        width={400}
+        height={400}
       />
     </div>
   );
