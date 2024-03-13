@@ -11,8 +11,8 @@ const Project = ({ imageUrl }: ProjectProps) => {
         className="rounded-2xl object-cover"
         src={imageUrl}
         alt="Project Image"
-        width={400}
-        height={400}
+        width={334}
+        height={334}
       />
     </div>
   );
