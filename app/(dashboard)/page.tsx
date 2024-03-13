@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex items-center justify-evenly">
           <div>
             <h2 className="text-lg lg:text-xl font-semibold text-[#225FAE]">
-              HOWIES CONSTRUCTION
+              HOWIE'S HARD LANDSCAPES
             </h2>
             <h1 className="text-4xl lg:text-5xl font-bold">
               Contact, Explore, or Learn <br /> about what we do.
