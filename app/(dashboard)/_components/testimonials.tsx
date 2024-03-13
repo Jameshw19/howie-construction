@@ -8,30 +8,21 @@ const Testimonials = () => {
           What our <span className="text-[#225FAE] font-bold">clients</span> say
         </h1>
       </div>
-      <div className="p-10 flex items-center justify-evenly w-full flex-row">
+      <div className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-10">
         <Testimonial
           imageUrl="/client.webp"
           name="John Doe"
-          review="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-           when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book."
+          review="Very friendly and hard working people and did a 10/10 job, will be contacting again for more jobs in the future"
         />
         <Testimonial
           imageUrl="/client.webp"
           name="John Doe"
-          review="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-           when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book."
+          review="Very friendly and hard working people and did a 10/10 job, will be contacting again for more jobs in the future"
         />
         <Testimonial
           imageUrl="/client.webp"
           name="John Doe"
-          review="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-           when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book."
+          review="Very friendly and hard working people and did a 10/10 job, will be contacting again for more jobs in the future"
         />
       </div>
     </div>

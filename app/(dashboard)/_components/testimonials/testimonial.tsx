@@ -8,8 +8,8 @@ interface TestimonialProps {
 
 const Testimonial = ({ imageUrl, name, review }: TestimonialProps) => {
   return (
-    <div className="flex items-center justify-center flex-col w-80 border rounded-3xl py-6 border-slate-500">
-      <div className="w-16 h-w-16 py-2">
+    <div className="flex items-center flex-col justify-center border rounded-3xl p-2 lg:w-[300px] lg:h-[240px]  border-slate-500">
+      <div className="w-12 h-12">
         <Image
           className="rounded-3xl"
           src={imageUrl}
@@ -18,10 +18,8 @@ const Testimonial = ({ imageUrl, name, review }: TestimonialProps) => {
           height={100}
         />
       </div>
-      <h1 className="text-2xl">{name}</h1>
-      <div className="flex items-center justify-center px-4 ">
-        <h2>{review}</h2>
-      </div>
+      <h1 className="text-xl">{name}</h1>
+      <h2 className="text-base w-48 text-center">{review}</h2>
     </div>
   );
 };
