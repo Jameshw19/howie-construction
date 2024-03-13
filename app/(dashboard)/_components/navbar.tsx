@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between p-5 lg:px-40 border-b-[1px] bg-white border-[#225FAE] ">
         <div className="flex items-center space-x-4">
           <div className="flex items-center flex-col">
-            <Image src="/logo.svg" alt="Logo" height={134} width={134} />
+            <Image src="/logo.svg" alt="Logo" height={50} width={50} />
             <div className="text-lg p-2">0129255402</div>
           </div>
         </div>
